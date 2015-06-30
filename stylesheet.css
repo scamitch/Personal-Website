@@ -1,0 +1,85 @@
+header {
+	background: url("http://img12.deviantart.net/0e00/i/2009/032/0/8/wood_wall_1440x1050_by_mugenb16.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: white;
+	padding-top: 40px;
+	border-radius: 10px;
+}
+body {
+	text-align: center;
+	font-family: helvetica;
+	background: #FFF7F8;
+}
+h1 {
+	font-family: 'Satisfy', cursive;
+	font-weight: 300;
+	font-size: 100px;
+	color: #413839;
+	text-align: center;
+}
+h2 {
+	font-size: 20px;
+	color: #413839;
+	font-family: georgia;
+	padding-bottom: 10px;
+}
+a {
+	color: black;
+}
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+li {
+	display: inline;
+	padding: 0 15px 0 15px;
+	font-size: 18px;
+}
+ul {
+	padding: 10px;
+	background: rgba(160,255,170,0.6);
+	border-radius: 10px;
+}
+h4 {
+	text-align: right;
+	color: gray; 
+}
+article {
+	max-width: 1050px;
+	margin: 0 auto;
+	text-align: left;
+}
+p {
+	font-size: 16px;
+	line-height: 150%;
+	font-family: verdana;
+}
+footer {
+	background: rgba(160,255,170,0.6);
+	padding: 10px;
+	text-align: center;
+	margin-top: 80px;
+	border-radius: 10px;
+}
+@media (max-width: 700px) {
+	header {
+		padding-top: 10px;
+	}
+	h1 {
+		font-size: 60px;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	li {
+		display: block;
+		padding: 3px;
+		font-size: 18px;
+	}
+	p {
+		font-size: 16px;
+	}
+}
